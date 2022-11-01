@@ -1,0 +1,28 @@
+#art{
+  display: table;
+  border-spacing: 1px;
+  background-color: black;
+  border-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}  
+
+.row{
+  display: table-row;
+  text-align: center;
+}
+
+.pixel{
+  display: table-cell;
+  background-color: white;
+  width: 40px;
+  height: 40px; 
+  text-align: center;
+}
+
+.pen{
+  display: inline-block;
+  width: 35px;
+  height: 35px; 
+  /*border: 1px black;*/
+}
